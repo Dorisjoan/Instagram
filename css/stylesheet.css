@@ -1,0 +1,140 @@
+body{
+    background-color:#e5e5e5;
+    color: #7f7f7f;
+}
+
+#rightlogo{
+    width: 40px;
+    height: 40px;
+    float: right;
+    border:gray solid;
+    background-color: white;
+    border-radius: 100%;
+    margin-top: -60px;
+
+}
+#middlelogo{
+    width:50px;
+    height: 40px;
+    background-color: white;
+    padding-left: 470px;
+    padding-right:570px; 
+    margin: 10px, 10px;
+    float: left;
+}
+#leftlogo{
+    width: 40px;
+    height: 40px;
+    border:gray solid;
+    background-color: white;
+    float: left;
+}
+nav{
+    height: 50px;
+}
+#wrapper{
+    background-color: white;
+    height: 70px;
+}
+
+
+#profile{
+    border-radius: 100%;
+    width: 150px;
+    height: 130px;
+    float: left;
+    margin-top: -100px;
+    margin-left: 50px;
+
+}
+
+a{
+text-decoration: none;
+color: #7f7f7f;
+}
+button{
+    background-color: green;
+    border-radius: 12px;
+    height: 50px;
+    width: 100px
+
+}
+img{
+    float: right;
+    height: 170px;
+    width: 170px;
+    margin: 10px;
+    border: 2px solid;
+    border-color: #fff;
+
+}
+aside{
+    float: left;
+background-color: #F0F0F0;
+margin-top: 20px;
+border: 2px solid;
+margin-bottom: 30px;
+border-color: #fff;
+}
+#hh   {float: left;
+  padding-left: 45px;
+}
+#line {
+  width: 30px;
+  height: 30px;
+}
+#box {
+  width: 30px;
+  height: 30px;
+}
+#images{
+    background-color: #e5e5e5;
+    float: right;
+    border: 1px solid;
+    margin-top: -3px;
+    padding-bottom: 90px;
+
+}
+
+.btn2{
+    width: 110px;
+    height: 60px;
+    background-color: #F0F0F0;
+}
+.input{
+  width: 224px;
+    height: 50px;  
+    text-align: center;
+}
+#btn3{
+    border-radius: 100%;
+    height: 20px;
+    width: 30px;
+    float: left;
+}
+h1{
+    float: right;
+}
+
+p{
+    color: #454545;
+    font-size: 16px;
+}
+@media only screen and (max-width: 500px) {
+   body{
+    background-color: white;
+}
+
+   img{
+        width: 100%;
+        height: 300px;
+        margin: 10px;
+    }
+    aside{
+        margin-left: -500px;
+    }
+    
+#rightlogo{
+    margin-top: -100px;
+}
+}
